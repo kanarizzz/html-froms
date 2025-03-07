@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+	<html> 
+		<head> 
+		
+		<body>
+		<title>  HTML forms  </title>
+			<meta name= "author" content= "Arkan Auva Nabil">
+			
+		<h2> HTML Forms</h2>
+		<form action = "" method = "GET"> 
+		<fieldset> 
+		<legend>Formulir Pendaftaran</legend>
+		<table width = "40%"> 
+		<tr> 
+		<td><label for ="nama"> Nama : </label>	</td>
+		<td><input type="text" name = "nama" id = "id_nama" required autofocus></td>
+		</tr>
+		<tr> 
+		<td><label> NIM :</label></td>
+		<td><input type = "number" name = "nim"></td>
+		</tr>
+		<tr> 
+		<td> <label> Password : </label> </td>
+		<td><input type = "Password" name = "Password"></td>
+		</tr>
+		<tr> 
+		<td><label> Email :</label></td>
+		<td><input type = "Email" name = "Email"></td>
+		</tr>
+		<tr> 
+		<td><label> Tanggal Lahir :</label></td>
+		<td><input type = "date" name = "tgl_hari"></td>
+		</tr>
+		<tr> 
+		<td><label> Jenis Kelamin : </label></td>
+		<td><input type = "radio" name = "jk"  value = "L">Laki-Laki</td>
+		<td><input type = "radio" name = "jk" value = "P">Perempuan</td>
+		
+		</tr>
+		<tr> 
+		<td><label> Hobi  :</label> </td>
+		<td><input type ="checkbox" name ="hobi" value = "Badminton"> Badminton</td>
+		<td><input type ="checkbox" name ="hobi" value = "Sepak Bola"> Sepak Bola </td>
+		<td><input type ="checkbox" name ="hobi" value = "TIdur"> TIdur</td>	
+		</tr>
+		<tr> 
+		<td><label> Pas Foto  :</label> </td>
+		<td><input type = "file" name = "foto" accept "image"></td>
+
+		</tr>
+		<tr>
+		<td><label>Prodi :</label></td>
+		<td>
+		<select name = "Prodi  " required autofocus>
+		<option value ""> Pilih Prodi </option>
+		<option value = "MI"> Manajemen Informatika</option>
+		<option value = "TK"> Teknik Komputer</option>
+		<option value = "Animasi"> Animasi</option>
+		<option value = "TRPL"> Teknologi Rekayasa Perangkat Lunak</option>
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td><label> Alamat Lengkap</label></td>
+		<td valign = "middle">
+		<textarea name = "alamat" rows = "5" cols "40%"  >	</textarea>
+		</td>
+		</tr>
+		
+		
+		<tr>
+		<td colspan = "2">
+		<input type =  "submit" value = "Simpan">
+		<input type = "reset" value = "ulang"
+		</td>
+		<td></td>	
+		</tr>
+		
+		
+		
+		</table>
+		</fieldset>		
+		</form>
+		
+		</body>
+		</head>
+		
+	</html>
